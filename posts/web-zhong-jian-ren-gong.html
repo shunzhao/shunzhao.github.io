@@ -6,13 +6,13 @@
     <title>Web 中间人攻击，拦截请求的服务器地址和改写响应内容 | 顺子的网络日记</title>
     <meta name="description" content="输入,处理,输出">
     <meta name="generator" content="VitePress v1.2.3">
-    <link rel="preload stylesheet" href="/assets/style.DMGwlkev.css" as="style">
+    <link rel="preload stylesheet" href="/assets/style.Cl407mZI.css" as="style">
     
-    <script type="module" src="/assets/app.vmdI5zt5.js"></script>
+    <script type="module" src="/assets/app.1liLgRm4.js"></script>
     <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/assets/chunks/framework.C5TX8YRv.js">
-    <link rel="modulepreload" href="/assets/chunks/theme.Cdtk2Mg9.js">
-    <link rel="modulepreload" href="/assets/posts_web-zhong-jian-ren-gong.md.DHzmbWdJ.lean.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CJs-7B9N.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.DpBf24Vp.js">
+    <link rel="modulepreload" href="/assets/posts_web-zhong-jian-ren-gong.md.CrC3zvSP.lean.js">
     <link rel="icon" href="/favicon.ico">
     <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
     <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
@@ -61,7 +61,7 @@
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    # print(f&quot;响应状态码: {flow.response.status_code}&quot;)</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    # print(f&quot;响应头: {flow.response.headers}&quot;)</span></span>
 <span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    # print(f&quot;响应体: {flow.response.text}&quot;)</span></span></code></pre></div><p>然后启动 mitmproxy 代理，注入脚本，支持在每次请求之前动态的修改脚本的逻辑。</p><div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">mitmweb</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -p8999</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -s</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> D:</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">\r</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">un</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">\d</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">ispatcher.py</span></span></code></pre></div><p>最后将 PDA 的 WIFI 代理改为本机的 ip:port ，之后就可以看到 APP toast 的响应内容变了。</p><p><img src="https://s2.loli.net/2024/07/05/SsVgxjaPA3N1DHn.png" alt="imgage1.png"></p></div></div></main><footer class="VPDocFooter" data-v-e6f2a212 data-v-5941af80><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter" data-v-d8b57b2d data-v-566314d4><div class="container" data-v-566314d4><p class="message" data-v-566314d4>Copyright © 2016-2024 ShunZi | Powered by Vitepress</p><!----></div></footer><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"iNCZpuAi\",\"index.md\":\"B3grnxL6\",\"posts_hello-world.md\":\"BCpEMSR-\",\"posts_web-zhong-jian-ren-gong.md\":\"DHzmbWdJ\",\"readme.md\":\"BMwODy2H\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"zh-Hans\",\"dir\":\"ltr\",\"title\":\"顺子的网络日记\",\"description\":\"输入,处理,输出\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/shunzhao\"}],\"footer\":{\"message\":\"Copyright © 2016-2024 ShunZi | Powered by Vitepress\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"Ne5MR9UO\",\"posts_hello-world.md\":\"BppS30oB\",\"index.md\":\"BlSLEJcZ\",\"readme.md\":\"CHVuXEn2\",\"posts_web-zhong-jian-ren-gong.md\":\"CrC3zvSP\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"zh-Hans\",\"dir\":\"ltr\",\"title\":\"顺子的网络日记\",\"description\":\"输入,处理,输出\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/shunzhao\"}],\"footer\":{\"message\":\"Copyright © 2016-2024 ShunZi | Powered by Vitepress\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
     
   </body>
 </html>
